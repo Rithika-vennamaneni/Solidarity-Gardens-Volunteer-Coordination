@@ -20,5 +20,5 @@ Time saved in manual matching
 Volunteer satisfaction scores
 Garden coverage/fulfillment rate
 
-Admin password: solidarity2024
+\
 
