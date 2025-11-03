@@ -1,0 +1,55 @@
+Create a simple, clean volunteer matching tool for Solidarity Gardens in Champaign-Urbana with two sides that automatically match volunteers with gardens.
+Real Context:
+
+Organization helps people grow food for their neighbors and communities
+Coordinates volunteers across 15+ community gardens in Champaign-Urbana
+Need to automatically match volunteer skills/availability with garden needs
+
+Features:
+
+Landing Page
+
+Simple header: "Solidarity Gardens Volunteer Matching"
+Brief tagline: "Connect volunteers with community gardens"
+Two clear buttons: "I Want to Volunteer" and "Post Garden Needs"
+
+
+Volunteer Side - Sign-Up Form
+
+Name and email
+Skills (checkboxes): Gardening/Planting, Weeding, Harvesting, Tool Maintenance, Event Support, Community Outreach
+Available days (checkboxes): Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday
+Time preference (checkboxes): Morning, Afternoon, Evening
+Location preference in Champaign-Urbana (text input)
+Experience level (dropdown): New/Some Experience/Experienced
+Submit → Automatically show matching gardens that need their skills/availability
+
+
+Garden Side - Post Needs Form
+
+Garden name and contact email
+Garden location in Champaign-Urbana
+Skills needed (checkboxes): Gardening/Planting, Weeding, Harvesting, Tool Maintenance, Event Support, Community Outreach
+Days help needed (checkboxes): Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday
+Time needed (checkboxes): Morning, Afternoon, Evening
+Submit → Automatically show matching volunteers with those skills/availability
+
+
+Matching Results
+
+Show matches based on overlapping skills, days, and times
+Display: Name/Garden Name, Location, Matching Skills/Availability, Contact Email
+Simple list format, easy to read
+"Back to Home" button
+
+
+
+Design:
+
+Green and white color palette with earth tones
+Clean, minimal layout with lots of white space
+Large readable fonts and clear form labels
+Mobile-responsive
+Simple navigation between volunteer and garden sides
+
+Use HTML, CSS, vanilla JavaScript. Store form data temporarily to enable automatic matching between volunteers and gardens based on skills, days, and times.

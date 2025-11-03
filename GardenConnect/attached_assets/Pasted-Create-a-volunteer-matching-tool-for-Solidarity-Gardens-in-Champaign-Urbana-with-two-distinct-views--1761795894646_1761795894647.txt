@@ -1,0 +1,82 @@
+Create a volunteer matching tool for Solidarity Gardens in Champaign-Urbana with two distinct views: a simple volunteer sign-up side and a comprehensive admin dashboard.
+Real Context:
+
+Organization helps people grow food for their neighbors and communities
+Coordinates volunteers across 15+ community gardens in Champaign-Urbana
+Admins need to post garden needs and view/match volunteers
+
+Features:
+
+Landing Page
+
+Simple header: "Solidarity Gardens Volunteer Matching"
+Two clear buttons: "Volunteer Sign-Up" and "Admin Login"
+
+
+VOLUNTEER SIDE (Keep It Simple)
+
+Sign-Up Form:
+
+Name and email
+Skills (checkboxes): Gardening/Planting, Weeding, Harvesting, Tool Maintenance, Event Support, Community Outreach
+Available days (checkboxes): Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday
+Time preference (checkboxes): Morning, Afternoon, Evening
+Location preference in Champaign-Urbana (text input)
+Experience level (dropdown): New/Some Experience/Experienced
+
+
+Confirmation Page: Simple "Thank you for signing up! We'll match you with a garden soon."
+
+
+ADMIN SIDE (Full Dashboard)
+
+Admin Login: Simple password entry (use password: "solidarity2024")
+Admin Dashboard with Tabs/Sections:
+a) View All Volunteers Tab:
+
+List/table of all registered volunteers
+Show: Name, Email, Skills, Available Days, Times, Location, Experience
+Search/filter by skills, days, location
+
+b) Post Garden Needs Tab:
+
+Form to add new garden opportunity:
+
+Garden name
+Garden location
+Contact email
+Skills needed (checkboxes)
+Days needed (checkboxes)
+Times needed (checkboxes)
+Additional notes (text area)
+
+
+View list of all posted garden needs
+
+c) Auto-Match Tab:
+
+Select a garden from dropdown
+Click "Find Matches" button
+Show ranked list of volunteers who match the garden's needs
+Display match percentage based on skills/days/times overlap
+Show volunteer contact info for outreach
+
+d) Manual Match Tab:
+
+Drag-and-drop or click interface to manually pair volunteers with gardens
+View all current matches
+Option to unmatch or edit matches
+
+
+
+
+
+Design:
+
+Volunteer Side: Clean, simple, welcoming - green/white with minimal design
+Admin Side: More functional dashboard look - organized tables, clear tabs, data-focused
+Both sides mobile-responsive
+Admin side can have more density of information
+Use icons for navigation in admin dashboard
+
+Use HTML, CSS, vanilla JavaScript. Store data in memory (arrays/objects) so admin can view volunteers, post needs, and see automatic matches. No backend needed - everything stored in browser session.
